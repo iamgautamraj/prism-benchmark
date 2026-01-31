@@ -1,0 +1,84 @@
+{
+  "model": "openrouter-qwen3-coder",
+  "total_prompts": 30,
+  "successful_evaluations": 30,
+  "mean_paas": 0.7699999999999999,
+  "mean_cns": 0.09333333333333334,
+  "mean_fni": 0.20400000000000004,
+  "false_novelty_rate": 0.0,
+  "high_paas_rate": 1.0,
+  "domain_breakdown": {
+    "Logistics": {
+      "mean_paas": 0.7,
+      "mean_cns": 0.0,
+      "mean_fni": 0.30000000000000004,
+      "count": 2
+    },
+    "Fintech": {
+      "mean_paas": 0.7999999999999999,
+      "mean_cns": 0.06666666666666667,
+      "mean_fni": 0.18000000000000002,
+      "count": 3
+    },
+    "Health": {
+      "mean_paas": 0.7,
+      "mean_cns": 0.0,
+      "mean_fni": 0.30000000000000004,
+      "count": 2
+    },
+    "Real Estate": {
+      "mean_paas": 0.85,
+      "mean_cns": 0.0,
+      "mean_fni": 0.15000000000000002,
+      "count": 2
+    },
+    "SaaS": {
+      "mean_paas": 0.7,
+      "mean_cns": 0.2,
+      "mean_fni": 0.24000000000000005,
+      "count": 2
+    },
+    "DevTools": {
+      "mean_paas": 0.6999999999999998,
+      "mean_cns": 0.20000000000000004,
+      "mean_fni": 0.24000000000000007,
+      "count": 3
+    },
+    "AI-Tooling": {
+      "mean_paas": 0.7999999999999999,
+      "mean_cns": 0.20000000000000004,
+      "mean_fni": 0.14,
+      "count": 3
+    },
+    "No-Code": {
+      "mean_paas": 0.7,
+      "mean_cns": 0.0,
+      "mean_fni": 0.30000000000000004,
+      "count": 2
+    },
+    "Security": {
+      "mean_paas": 0.7,
+      "mean_cns": 0.1,
+      "mean_fni": 0.27,
+      "count": 2
+    },
+    "Data": {
+      "mean_paas": 0.7,
+      "mean_cns": 0.2,
+      "mean_fni": 0.24000000000000005,
+      "count": 1
+    },
+    "Control": {
+      "mean_paas": 0.6999999999999998,
+      "mean_cns": 0.13333333333333333,
+      "mean_fni": 0.26000000000000006,
+      "count": 3
+    },
+    "Stress-Test": {
+      "mean_paas": 0.9400000000000001,
+      "mean_cns": 0.04,
+      "mean_fni": 0.06000000000000001,
+      "count": 5
+    }
+  }
+}

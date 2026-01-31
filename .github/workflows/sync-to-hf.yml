@@ -1,0 +1,33 @@
+name: Sync to HuggingFace Spaces
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      
+      - name: Push to HuggingFace
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          # Only push the files needed for the Streamlit app
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          
+          # Create fresh orphan branch with only needed files
+          git checkout --orphan hf-deploy
+          git reset
+          
+          # Add only files needed for HuggingFace Spaces
+          git add app.py requirements.txt README.md results/
+          git commit -m "Deploy to HuggingFace Spaces"
+          
+          # Push to HuggingFace
+          git remote add hf https://iamgautamraj:$HF_TOKEN@huggingface.co/spaces/iamgautamraj/prism-benchmark
+          git push hf hf-deploy:main --force

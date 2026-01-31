@@ -1,0 +1,19 @@
+# PRISM Benchmark Dependencies
+
+# Core - pinned for HuggingFace compatibility
+streamlit==1.28.0
+pandas==2.0.3
+altair>=5.0.0
+
+# LLM APIs
+google-generativeai>=0.3.0
+boto3>=1.34.0
+requests>=2.31.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+
+# Visualization (optional, for graph.py)
+matplotlib>=3.8.0
+seaborn>=0.13.0

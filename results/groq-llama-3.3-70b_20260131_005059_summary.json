@@ -1,0 +1,84 @@
+{
+  "model": "groq-llama-3.3-70b",
+  "total_prompts": 30,
+  "successful_evaluations": 30,
+  "mean_paas": 0.7533333333333333,
+  "mean_cns": 0.060000000000000005,
+  "mean_fni": 0.22333333333333336,
+  "false_novelty_rate": 0.06666666666666667,
+  "high_paas_rate": 0.9333333333333333,
+  "domain_breakdown": {
+    "Logistics": {
+      "mean_paas": 0.85,
+      "mean_cns": 0.1,
+      "mean_fni": 0.12000000000000002,
+      "count": 2
+    },
+    "Fintech": {
+      "mean_paas": 0.9,
+      "mean_cns": 0.06666666666666667,
+      "mean_fni": 0.10000000000000002,
+      "count": 3
+    },
+    "Health": {
+      "mean_paas": 0.85,
+      "mean_cns": 0.0,
+      "mean_fni": 0.15000000000000002,
+      "count": 2
+    },
+    "Real Estate": {
+      "mean_paas": 0.85,
+      "mean_cns": 0.0,
+      "mean_fni": 0.15000000000000002,
+      "count": 2
+    },
+    "SaaS": {
+      "mean_paas": 0.7,
+      "mean_cns": 0.0,
+      "mean_fni": 0.30000000000000004,
+      "count": 2
+    },
+    "DevTools": {
+      "mean_paas": 0.3333333333333333,
+      "mean_cns": 0.13333333333333333,
+      "mean_fni": 0.5533333333333333,
+      "count": 3
+    },
+    "AI-Tooling": {
+      "mean_paas": 0.6999999999999998,
+      "mean_cns": 0.20000000000000004,
+      "mean_fni": 0.24000000000000007,
+      "count": 3
+    },
+    "No-Code": {
+      "mean_paas": 0.7,
+      "mean_cns": 0.1,
+      "mean_fni": 0.27,
+      "count": 2
+    },
+    "Security": {
+      "mean_paas": 0.7,
+      "mean_cns": 0.0,
+      "mean_fni": 0.30000000000000004,
+      "count": 2
+    },
+    "Data": {
+      "mean_paas": 0.7,
+      "mean_cns": 0.0,
+      "mean_fni": 0.30000000000000004,
+      "count": 1
+    },
+    "Control": {
+      "mean_paas": 0.6999999999999998,
+      "mean_cns": 0.06666666666666667,
+      "mean_fni": 0.28,
+      "count": 3
+    },
+    "Stress-Test": {
+      "mean_paas": 0.9400000000000001,
+      "mean_cns": 0.0,
+      "mean_fni": 0.06000000000000001,
+      "count": 5
+    }
+  }
+}

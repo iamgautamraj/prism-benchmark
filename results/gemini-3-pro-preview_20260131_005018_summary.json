@@ -1,0 +1,84 @@
+{
+  "model": "gemini-3-pro-preview",
+  "total_prompts": 30,
+  "successful_evaluations": 30,
+  "mean_paas": 0.9,
+  "mean_cns": 0.24000000000000002,
+  "mean_fni": 0.07200000000000001,
+  "false_novelty_rate": 0.0,
+  "high_paas_rate": 1.0,
+  "domain_breakdown": {
+    "Logistics": {
+      "mean_paas": 1.0,
+      "mean_cns": 0.2,
+      "mean_fni": 0.0,
+      "count": 2
+    },
+    "Fintech": {
+      "mean_paas": 1.0,
+      "mean_cns": 0.20000000000000004,
+      "mean_fni": 0.0,
+      "count": 3
+    },
+    "Health": {
+      "mean_paas": 0.7,
+      "mean_cns": 0.2,
+      "mean_fni": 0.24000000000000005,
+      "count": 2
+    },
+    "Real Estate": {
+      "mean_paas": 1.0,
+      "mean_cns": 0.2,
+      "mean_fni": 0.0,
+      "count": 2
+    },
+    "SaaS": {
+      "mean_paas": 0.7,
+      "mean_cns": 0.4,
+      "mean_fni": 0.18000000000000002,
+      "count": 2
+    },
+    "DevTools": {
+      "mean_paas": 0.7999999999999999,
+      "mean_cns": 0.3333333333333333,
+      "mean_fni": 0.14,
+      "count": 3
+    },
+    "AI-Tooling": {
+      "mean_paas": 1.0,
+      "mean_cns": 0.26666666666666666,
+      "mean_fni": 0.0,
+      "count": 3
+    },
+    "No-Code": {
+      "mean_paas": 0.85,
+      "mean_cns": 0.30000000000000004,
+      "mean_fni": 0.09000000000000001,
+      "count": 2
+    },
+    "Security": {
+      "mean_paas": 1.0,
+      "mean_cns": 0.2,
+      "mean_fni": 0.0,
+      "count": 2
+    },
+    "Data": {
+      "mean_paas": 1.0,
+      "mean_cns": 0.4,
+      "mean_fni": 0.0,
+      "count": 1
+    },
+    "Control": {
+      "mean_paas": 0.6999999999999998,
+      "mean_cns": 0.20000000000000004,
+      "mean_fni": 0.24000000000000007,
+      "count": 3
+    },
+    "Stress-Test": {
+      "mean_paas": 1.0,
+      "mean_cns": 0.16,
+      "mean_fni": 0.0,
+      "count": 5
+    }
+  }
+}
