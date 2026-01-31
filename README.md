@@ -17,8 +17,7 @@ license: mit
 
 > Testing if AI models tell you the truth about existing startup ideas — or just agree with everything.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app.streamlit.app)
-[![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace-yellow)](https://huggingface.co/spaces/your-space)
+[![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace-yellow)](https://huggingface.co/spaces/iamgautamraj/prism-benchmark)
 
 ---
 
