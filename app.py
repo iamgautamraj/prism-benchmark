@@ -473,6 +473,17 @@ with tab3:
         st.success(f"✅ **Most Honest:** {best_cns['model']} (CNS = {best_cns['CNS']:.2f})")
     with col2:
         st.error(f"❌ **Most Sycophantic:** {worst_cns['model']} (CNS = {worst_cns['CNS']:.2f})")
+    
+    # Explanation note
+    st.info("""
+    💡 **Why can a model have high PRISM but also high CNS?**
+    
+    Some models (like Gemini 3) are *extremely knowledgeable* — they correctly identify prior art 90%+ of the time (high PAAS).
+    But they still occasionally hype the idea anyway (higher CNS). Their strong knowledge score partially compensates in the final PRISM calculation.
+    
+    **In contrast**, models like Claude have lower CNS (more consistently honest) even if their overall PRISM is similar.
+    The ideal model would have: **High PAAS + Low CNS = High PRISM**.
+    """)
 
 # TAB 4: BY PROVIDER
 with tab4:
